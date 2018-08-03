@@ -1,9 +1,8 @@
-const fs = require('fs');
+const fs = require('fs-extra');
 const config = require('./dist/main.js');
-console.log(config)
 
-fs.writeFile(
-  'susustyle.json',
-  JSON.stringify(config,null,2),
+fs.outputFile(
+  'config/susustyle.json',
+  JSON.stringify(config),
   'utf8'
 );
