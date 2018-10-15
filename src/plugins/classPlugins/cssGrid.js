@@ -12,13 +12,10 @@ export const gridCol = {
       regex: '\\d+',
       regexSeparator: '-',
       separator: '-',
-      modifierFn: size => ({ 'grid-column-start': `(${size} + 1)` }),
+      modifierFn: size => ({ 'grid-column-start': `${parseInt(size) + 1}` }),
       className: ['offset']
     }
   ]
 };
 
 export default [gridCol];
-
-// .col-span-#{$i} { grid-column-end: span $i }
-// .col-offset-#{$i} { grid-column-start: ($i + 1) }

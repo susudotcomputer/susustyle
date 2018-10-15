@@ -1,8 +1,8 @@
 // animation
-import animationDirection from './animations/animation-direction'
-import animationDuration from './animations/animation-duration'
-import animationIterationCount from './animations/animation-iteration-count'
-import animationTimingFunction from './animations/animation-timing-function'
+import animationDirection from './animations/animation-direction';
+import animationDuration from './animations/animation-duration';
+import animationIterationCount from './animations/animation-iteration-count';
+import animationTimingFunction from './animations/animation-timing-function';
 
 // background
 import backgroundColor from './background/background-color';
@@ -25,7 +25,8 @@ import maxHeight from './box-model/height/max-height';
 import maxWidth from './box-model/width/max-width';
 import minHeight from './box-model/height/min-height';
 import minWidth from './box-model/width/min-width';
-import overflow from './box-model/overflow';``
+import overflow from './box-model/overflow';
+``;
 import padding from './box-model/padding';
 import width from './box-model/width/width';
 import boxSizing from './box-model/box-sizing';
@@ -94,7 +95,6 @@ import boxShadow from './box-shadow';
 import color from './color';
 import display from './display';
 import opacity from './opacity';
-
 
 export default [
   alignContent,
@@ -166,4 +166,4 @@ export default [
   width,
   wordBreak,
   zIndex
-]
+];

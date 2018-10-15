@@ -6,6 +6,7 @@ import integers from './integers';
 import lengthUnits from './lengthUnits';
 import pseudos from './pseudos';
 import times from './times';
+import cssGrid from './classPlugins/cssGrid';
 
 export default [
   breakpoints,
@@ -16,4 +17,5 @@ export default [
   lengthUnits,
   pseudos,
   times,
-]
+  ...cssGrid
+];

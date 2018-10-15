@@ -16,6 +16,7 @@
   },
   "scripts": {
     "build": "webpack --config ./webpack.config.js",
-    "watch": "webpack --watch --config ./webpack.config.js"
+    "watch": "webpack --watch --config ./webpack.config.js",
+    "copy": "cp ./dist/battery.config.js ../website/"
   }
 }
