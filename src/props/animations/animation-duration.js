@@ -2,7 +2,7 @@ const animationDuration = {
   propName: 'animation',
   prop: 'animation-duration',
   separator: '-',
-  enablePlugin: 'durations',
+  enablePlugin: 'times',
   propGroup: 'Animation'
 };
 

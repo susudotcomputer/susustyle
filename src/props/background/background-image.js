@@ -1,6 +1,6 @@
 const backgroundImage = {
   prop: 'background-image',
-  propName: 'bg',
+  propName: 'bgi',
   keywordValues: {
     separator: '-',
     values: { none: 'none' }

@@ -8,8 +8,7 @@ const borderWidth = {
       medium: '0.2rem',
       thick: '0.3rem'
     }
-  },
-  enablePlugin: 'lengthUnits'
+  }
 };
 
 export default borderWidth;

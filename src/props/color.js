@@ -1,4 +1,4 @@
-const color = {
+const colors = {
   prop: 'color',
   propName: '',
   keywordValues: {
@@ -8,4 +8,4 @@ const color = {
   enablePlugin: 'colors'
 }
 
-export default color;
+export default colors;

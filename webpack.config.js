@@ -1,5 +1,10 @@
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+
 module.exports = {
-  mode: "development",
+  mode: "production",
+  entry: {
+    'battery.config': './src/index.js',
+  },
   output: {
     path: __dirname+'/dist',
     filename: "[name].js",
@@ -20,6 +25,13 @@ module.exports = {
           }
         }
       }
+    ]
+  },
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        test: /\.js($|\?)/i
+      })
     ]
   }
 }

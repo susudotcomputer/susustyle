@@ -1,7 +1,7 @@
 const addMs = (x) => `${x}ms`
 
-const durationsPlugin = {
-  name: 'durations',
+const timePlugin = {
+  name: 'times',
   type: 'pattern',
   valueRegexString: '[0-9]{1,4}',
   valueModifiers: [
@@ -15,4 +15,4 @@ const durationsPlugin = {
   ]
 };
 
-export default durationsPlugin;
+export default timePlugin;

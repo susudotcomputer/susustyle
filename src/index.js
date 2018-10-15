@@ -1,14 +1,8 @@
-import plugins from './plugins/';
+import plugins from './plugins';
 import props from './props';
-import molecules from './molecules';
 
-const config = {
+export default {
   plugins,
   props,
-  molecules,
-  settings: {
-    enableKeywordValues: true,
-  }
+  settings: { enableKeywordValues: true }
 }
-
-export default config;

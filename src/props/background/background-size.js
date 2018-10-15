@@ -1,6 +1,6 @@
 const backgroundSize = {
   prop: 'background-size',
-  propName: 'bg',
+  propName: 'bgz',
   keywordValues: {
     separator: '-',
     values: {

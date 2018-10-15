@@ -1,4 +1,4 @@
-const borderWidth = {
+const borderStyle = {
   prop: 'border-style',
   propName: 'border',
   keywordValues: {
@@ -6,8 +6,7 @@ const borderWidth = {
     values: {
       dashed: 'dashed'
     }
-  },
-  enablePlugin: 'lengthUnits'
+  }
 };
 
-export default borderWidth;
+export default borderStyle;

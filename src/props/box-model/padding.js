@@ -1,14 +1,9 @@
+import { singleLetterPositionSubProps } from './_shared';
+
 const padding = {
   prop: 'padding',
   propName: 'p',
-  subProps: {
-    't': 'top',
-    'r': 'right',
-    'b': 'bottom',
-    'l': 'left',
-    'x': 'left right',
-    'y': 'top bottom'
-  },
+  subProps: singleLetterPositionSubProps,
   keywordValues: {
     separator: '-',
     values: { auto: 'auto' }
