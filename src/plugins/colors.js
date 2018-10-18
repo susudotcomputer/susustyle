@@ -39,6 +39,11 @@ const colorPlugin = {
       separator: '_',
       indicator: '\\d+',
       modifierFn: hexToRgba,
+    },
+    {
+      name: 'important',
+      indicator: '!',
+      modifierFn: (value) => `${value} !important`
     }
   ]
 };
