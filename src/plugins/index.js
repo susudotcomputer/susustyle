@@ -7,6 +7,7 @@ import lengthUnits from './lengthUnits';
 import pseudos from './pseudos';
 import times from './times';
 import cssGrid from './classPlugins/cssGrid';
+import aspectRatio from './classPlugins/aspectRatio';
 
 export default [
   breakpoints,
@@ -17,5 +18,6 @@ export default [
   lengthUnits,
   pseudos,
   times,
-  ...cssGrid
+  ...cssGrid,
+  aspectRatio
 ];
