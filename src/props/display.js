@@ -7,6 +7,7 @@ const display = {
       inline: 'inline',
       flex: 'flex',
       hide: 'none',
+      grid: 'grid',
       'super-hide': 'hide !important',
       'inline-block': 'inline-block',
       'inline-flex': 'inline-flex',
@@ -16,6 +17,6 @@ const display = {
       'table-cell': 'table-cell'
     }
   }
-}
+};
 
 export default display;

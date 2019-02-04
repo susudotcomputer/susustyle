@@ -95,6 +95,7 @@ import boxShadow from './box-shadow';
 import color from './color';
 import display from './display';
 import opacity from './opacity';
+import objectFit from './objectFit';
 
 export default [
   alignContent,
@@ -145,6 +146,7 @@ export default [
   maxWidth,
   minHeight,
   minWidth,
+  objectFit,
   opacity,
   order,
   overflow,

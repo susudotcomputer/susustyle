@@ -1,4 +1,4 @@
-export const gridCol = {
+const gridCol = {
   name: 'gridCol',
   type: 'class',
   className: ['col'],
@@ -18,4 +18,17 @@ export const gridCol = {
   ]
 };
 
-export default [gridCol];
+const grid = {
+  name: 'gridTemplates',
+  type: 'class',
+  className: ['grid'],
+  modifiers: [
+    {
+      regex: '\\d+',
+      separator: '-',
+      modifierFn: size => ({ 'grid-template-columns': `repeat(${size}, 1fr)` })
+    }
+  ]
+};
+
+export default [grid, gridCol];

@@ -1,7 +1,7 @@
 const lineHeight = {
   prop: 'line-height',
   propName: 'lh',
-  enablePlugin: 'lengthUnits'
+  enablePlugin: 'lineHeight'
 };
 
 export default lineHeight;
